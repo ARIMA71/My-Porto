@@ -5,9 +5,16 @@ import image3 from '../assets/image3.png';
 
 const Projects = () => {
   return (
-    <section id="projects" className="min-h-screen bg-white py-10">
-    <h2 className="text-4xl font-bold text-center mb-6 text-blue-800">My Projects</h2>
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 container mx-auto px-6">
+    <section 
+    id="projects" 
+    className="min-h-screen bg-white py-10 p-10 relative overflow-hidden"
+    >
+      <div className="flex flex-col md:flex-row items-center ">
+        <div className="absolute top-10 right-10 bg-blue-400 w-20 h-20 rounded-full opacity-20 animate-pulse"></div>
+        <div className="absolute bottom-20 left-20 bg-red-600 w-36 h-36 rounded-full opacity-20 animate-bounce"></div>
+      </div>
+      <h2 className="text-4xl font-bold text-center mb-6 pb-4 text-blue-800">My Projects</h2>
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 container mx-auto px-6">
         <a 
             className="bg-gradient-to-br from-blue-400 via-blue-600 to-blue-800 p-4 shadow-md rounded-lg transform transition-transform duration-300 hover:scale-105 hover:shadow-xl"
             href="https://github.com/ARIMA71"
@@ -23,7 +30,7 @@ const Projects = () => {
             target="_blank"
             rel="noopener noreferrer">
             <h3 className="text-xl mb-2">Design Graphic</h3>
-            <p>I've done quite a bit of graphic design such as feed design, posters, images, and video editing and such.</p>
+            <p>I've done quite a bit such as feed design, posters, images, video editing and such.</p>
             <img src={image2} alt="Project 2" className="p-5 w-auto h-auto rounded-lg" />
         </a>
         <a
