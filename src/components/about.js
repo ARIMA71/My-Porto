@@ -5,13 +5,10 @@ const About = () => {
   return (
     <section
       id="about"
-      className="min-h-screen flex flex-col md:flex-row items-center bg-gray-50 p-10 relative overflow-hidden"
+      className="min-h-screen flex flex-col md:flex-row items-center bg-gray-100 p-10 relative overflow-hidden"
     >
-      {/* Background Decorative Elements */}
       <div className="absolute top-10 left-10 bg-blue-400 w-20 h-20 rounded-full opacity-20 animate-pulse"></div>
       <div className="absolute bottom-20 right-20 bg-red-600 w-36 h-36 rounded-full opacity-20 animate-bounce"></div>
-
-      {/* Image Section */}
       <div className="md:w-1/2 flex justify-center animate-slide-in-left relative z-10">
         <img
           src={bgImage}

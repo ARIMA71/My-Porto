@@ -7,7 +7,7 @@ const Projects = () => {
   return (
     <section 
     id="projects" 
-    className="min-h-screen bg-white py-10 p-10 relative overflow-hidden"
+    className="min-h-screen bg-gray-100 py-10 p-10 relative overflow-hidden"
     >
       <div className="flex flex-col md:flex-row items-center ">
         <div className="absolute top-10 right-10 bg-blue-400 w-20 h-20 rounded-full opacity-20 animate-pulse"></div>
