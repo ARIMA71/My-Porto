@@ -3,9 +3,21 @@ import bgImage from '../assets/pake2.png';
 
 const About = () => {
   return (
-    <section id="about" className="min-h-screen flex flex-col md:flex-row items-center bg-gray-50 p-10">
-      <div className="md:w-1/2 flex justify-center animate-slide-in-left">
-        <img src={bgImage} alt="About Me" className="rounded-lg shadow-lg w-4/6" />
+    <section
+      id="about"
+      className="min-h-screen flex flex-col md:flex-row items-center bg-gray-50 p-10 relative overflow-hidden"
+    >
+      {/* Background Decorative Elements */}
+      <div className="absolute top-10 left-10 bg-blue-400 w-20 h-20 rounded-full opacity-20 animate-pulse"></div>
+      <div className="absolute bottom-20 right-20 bg-red-600 w-36 h-36 rounded-full opacity-20 animate-bounce"></div>
+
+      {/* Image Section */}
+      <div className="md:w-1/2 flex justify-center animate-slide-in-left relative z-10">
+        <img
+          src={bgImage}
+          alt="About Me"
+          className="rounded-lg shadow-lg w-4/6"
+        />
       </div>
       <div className="md:w-1/2 px-6 animate-slide-in-right">
         <h2 className="text-4xl font-bold mb-4 text-blue-800">About Me</h2>
