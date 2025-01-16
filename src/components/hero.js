@@ -12,7 +12,7 @@ const Hero = () => {
       </p>
       <a
         href="#projects"
-        className="px-6 py-3 bg-white text-blue-800 rounded-md shadow-lg hover:bg-gray-200 transition duration-300"
+        className="px-6 py-3 bg-white text-blue-800 rounded-md shadow-lg hover:bg-blue-500 hover:text-white transition duration-300"
       >
         View Projects
       </a>

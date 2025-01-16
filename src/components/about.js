@@ -15,7 +15,7 @@ const About = () => {
         <div className='mt-6'>
         <a
           href="https://drive.google.com/uc?export=download&id=1T6YmAoHfbFqjvhiblR1pdXQnjXeoJtn1"
-          className="mt-6 bg-blue-500 text-white px-6 py-2 rounded-full shadow-md hover:bg-blue-700 transition-colors duration-300"
+          className="mt-6 bg-blue-500 text-white px-6 py-2 rounded-full shadow-md hover:bg-white hover:text-blue-500 transition-colors duration-300"
           download
         >
           Download CV
