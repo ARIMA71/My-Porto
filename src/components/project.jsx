@@ -240,32 +240,19 @@ const Projects = () => {
         <div className="bg-white rounded-lg text-green-500 shadow-lg hover:shadow-xl transform transition-transform duration-300 hover:scale-105">
           <img
             src={image3}
-            alt="SMP TPI Gedangan Official Site"
+            alt="legend of Runetera"
             className="w-full h-48 object-cover rounded-t-lg"
           />
           <div className="p-6">
-            <h4 className="text-xl font-bold mb-2">SMP TPI Gedangan Official Site</h4>
+            <h4 className="text-xl font-bold mb-2">Drawing Commision</h4>
             <p className="text-sm mb-4">
-              Official website for SMP TPI Gedangan, built with React and Tailwind CSS to provide
-              school information and updates.
+            Producing character design images with special requests from some friends. 
+            Some images usually take me 2 days to complete..
             </p>
             <div className="flex flex-wrap gap-2 mb-4">
               <span className="bg-green-500 text-purple-200 text-xs font-medium py-1 px-2 rounded">
-                React
+                Clip Studio Paint
               </span>
-              <span className="bg-green-500 text-purple-200 text-xs font-medium py-1 px-2 rounded">
-                Tailwind CSS
-              </span>
-            </div>
-            <div className="flex justify-between items-center">
-              <a
-                href="https://github.com/ARIMA71"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-sm text-green-400 hover:underline hover:font-bold"
-              >
-                View
-              </a>
             </div>
           </div>
         </div>
