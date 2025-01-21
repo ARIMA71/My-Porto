@@ -15,22 +15,22 @@ const Contact = () => {
           <p className="mb-6 text-lg">You can reach out to me through the following social media platforms or via email:</p>
           <ul className="list-none">
             <li className="mb-6 text-2xl">
-              <a href="https://www.linkedin.com/in/abel-bima-26a82a25b/" className="hover:text-blue-400" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.linkedin.com/in/abel-bima-26a82a25b/" className="hover:text-blue-800" target="_blank" rel="noopener noreferrer">
                 <FaLinkedin className="inline-block" />
               </a>
             </li>
             <li className="mb-6 text-2xl">
-              <a href="https://github.com/ARIMA71" className="hover:text-blue-400" target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/ARIMA71" className="hover:text-blue-800" target="_blank" rel="noopener noreferrer">
                 <FaGithub className="inline-block" />
               </a>
             </li>
             <li className="mb-6 text-2xl">
-              <a href="https://instagram.com/abel_bima" className="hover:text-blue-400" target="_blank" rel="noopener noreferrer">
+              <a href="https://instagram.com/abel_bima" className="hover:text-blue-800" target="_blank" rel="noopener noreferrer">
                 <FaInstagram className="inline-block" />
               </a>
             </li>
             <li className="mb-6 text-2xl">
-              <a href="mailto:abelbima4713@gmail.com" className="hover:text-blue-400" target="_blank" rel="noopener noreferrer">
+              <a href="mailto:abelbima4713@gmail.com" className="hover:text-blue-800" target="_blank" rel="noopener noreferrer">
                 <SiGmail className="inline-block" />
               </a>
             </li>

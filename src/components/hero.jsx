@@ -8,7 +8,7 @@ const Hero = () => {
     >
       <h1 className="text-5xl font-bold mb-4 animate-fade-in-down">Hi, I'm Abel</h1>
       <p className="text-lg mb-6 max-w-md text-center">
-        Passionate about building elegant and user-friendly web applications. Explore my projects and learn more about me.
+        I'm passionate about building elegant and user-friendly web applications. Explore my projects and learn more about me.
       </p>
       <a
         href="#projects"

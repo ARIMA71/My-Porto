@@ -7,7 +7,7 @@ const About = () => {
       id="about"
       className="min-h-screen flex flex-col md:flex-row items-center bg-gray-100 p-10 relative overflow-hidden"
     >
-      <div className="absolute top-10 left-10 bg-blue-400 w-20 h-20 rounded-full opacity-20 animate-pulse"></div>
+      <div className="absolute top-10 left-10 bg-green-500 w-20 h-20 rounded-full opacity-20 animate-pulse"></div>
       <div className="absolute bottom-20 right-20 bg-red-600 w-36 h-36 rounded-full opacity-20 animate-bounce"></div>
       <div className="md:w-1/2 flex justify-center animate-slide-in-left relative z-10">
         <img
@@ -19,7 +19,7 @@ const About = () => {
       <div className="md:w-1/2 px-6 animate-slide-in-right">
         <h2 className="text-4xl font-bold mb-4 text-blue-800">About Me</h2>
         <p className="text-lg text-gray-600">
-          I'm an informatics student with a passion for creating elegant web applications. I actively participate in campus organizations and have strong leadership skills.
+          I'm an informatics student with a passion for creating elegant web applications. I actively participate in campus organizations and have strong leadership skills. If you wanna know about me more, download my CV below.
         </p>
         <div className='mt-6'>
         <a
