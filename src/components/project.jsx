@@ -11,8 +11,6 @@ const Projects = () => {
       id="projects"
       className="min-h-screen bg-gray-100 py-16 px-10 text-white"
     >
-      <div className="absolute top-10 left-10 bg-blue-400 w-20 h-20 rounded-full opacity-20 animate-pulse"></div>
-      <div className="absolute bottom-20 right-20 bg-red-600 w-36 h-36 rounded-full opacity-20 animate-bounce"></div>
       {/* Title */}
       <h2 className="text-4xl font-bold text-center mb-12 text-blue-800">
         Projects
