@@ -7,8 +7,10 @@ const Hero = () => {
       className="h-screen bg-gradient-to-br from-blue-500 via-blue-600 to-blue-800 text-white flex flex-col justify-center items-center"
     >
       <h1 className="text-5xl font-bold mb-4 animate-fade-in-down">Hi, I'm Abel</h1>
-      <p className="text-lg mb-6 max-w-md text-center">
-        I'm passionate about building elegant and user-friendly web applications. Explore my projects and learn more about me.
+      <p className="text-lg mb-6 max-w-lg text-center">
+      I'm an informatics student with a passion for creating elegant web applications and user-friendly web applications. 
+      I also actively participate in campus organizations and have strong leadership skills. 
+      Explore my projects and learn more about me.
       </p>
       <a
         href="#projects"

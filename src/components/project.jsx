@@ -45,10 +45,10 @@ const Projects = () => {
                   AI chatbot websites that allow users to ask AI questions and additional file input features, especially identifiable CSV files.
                 </p>
                 <div className="flex flex-wrap gap-2 mb-4">
-                  <span className="bg-blue-500 text-purple-200 text-xs font-medium py-1 px-2 rounded">Golang</span>
-                  <span className="bg-blue-500 text-purple-200 text-xs font-medium py-1 px-2 rounded">React JS</span>
-                  <span className="bg-blue-500 text-purple-200 text-xs font-medium py-1 px-2 rounded">Tailwind CSS</span>
-                  <span className="bg-blue-500 text-purple-200 text-xs font-medium py-1 px-2 rounded">Huggingface</span>
+                  <span className="bg-blue-500 text-white text-xs font-medium py-1 px-2 rounded">Golang</span>
+                  <span className="bg-blue-500 text-white text-xs font-medium py-1 px-2 rounded">React JS</span>
+                  <span className="bg-blue-500 text-white text-xs font-medium py-1 px-2 rounded">Tailwind CSS</span>
+                  <span className="bg-blue-500 text-white text-xs font-medium py-1 px-2 rounded">Huggingface</span>
                 </div>
                 <div className="flex justify-between items-center">
                   <a
@@ -84,9 +84,9 @@ const Projects = () => {
                   Websites for managing student data, allowing teachers to add, edit, or delete student records.
                 </p>
                 <div className="flex flex-wrap gap-2 mb-4">
-                  <span className="bg-blue-500 text-purple-200 text-xs font-medium py-1 px-2 rounded">React JS</span>
-                  <span className="bg-blue-500 text-purple-200 text-xs font-medium py-1 px-2 rounded">CSS</span>
-                  <span className="bg-blue-500 text-purple-200 text-xs font-medium py-1 px-2 rounded">Material UI</span>
+                  <span className="bg-blue-500 text-white text-xs font-medium py-1 px-2 rounded">React JS</span>
+                  <span className="bg-blue-500 text-white text-xs font-medium py-1 px-2 rounded">CSS</span>
+                  <span className="bg-blue-500 text-white text-xs font-medium py-1 px-2 rounded">Material UI</span>
                 </div>
                 <div className="flex justify-between items-center">
                   <a
@@ -122,9 +122,9 @@ const Projects = () => {
                   A simple website that allows users to search for Pokémon data by name or ID.
                 </p>
                 <div className="flex flex-wrap gap-2 mb-4">
-                  <span className="bg-blue-500 text-purple-200 text-xs font-medium py-1 px-2 rounded">HTML</span>
-                  <span className="bg-blue-500 text-purple-200 text-xs font-medium py-1 px-2 rounded">Tailwind CSS</span>
-                  <span className="bg-blue-500 text-purple-200 text-xs font-medium py-1 px-2 rounded">JavaScript</span>
+                  <span className="bg-blue-500 text-white text-xs font-medium py-1 px-2 rounded">HTML</span>
+                  <span className="bg-blue-500 text-white text-xs font-medium py-1 px-2 rounded">Tailwind CSS</span>
+                  <span className="bg-blue-500 text-white text-xs font-medium py-1 px-2 rounded">JavaScript</span>
                 </div>
                 <div className="flex justify-between items-center">
                   <a
@@ -202,10 +202,10 @@ const Projects = () => {
                 with the concept of flashmob as a memories.
                 </p>
                 <div className="flex flex-wrap gap-2 mb-4">
-                  <span className="bg-red-500 text-red-200 text-xs font-medium py-1 px-2 rounded">
+                  <span className="bg-red-500 text-white text-xs font-medium py-1 px-2 rounded">
                     Premiere Pro
                   </span>
-                  <span className="bg-red-500 text-red-200 text-xs font-medium py-1 px-2 rounded">
+                  <span className="bg-red-500 text-white text-xs font-medium py-1 px-2 rounded">
                     Photoshop
                   </span>
                 </div>
@@ -243,7 +243,7 @@ const Projects = () => {
       </button>
       {segment === 'drawing' && (
         <div>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 overflow-auto mt-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-6">
             {/* Card 1 */}
             <div className="bg-white rounded-lg text-green-500 shadow-lg hover:shadow-xl transform transition-transform duration-300 hover:scale-105">
               <img
@@ -258,7 +258,7 @@ const Projects = () => {
                 Some images usually take me 2 days to complete..
                 </p>
                 <div className="flex flex-wrap gap-2 mb-4">
-                  <span className="bg-green-500 text-purple-200 text-xs font-medium py-1 px-2 rounded">
+                  <span className="bg-green-500 text-white text-xs font-medium py-1 px-2 rounded">
                     Clip Studio Paint
                   </span>
                 </div>
