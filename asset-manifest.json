@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/My-Porto/static/css/main.69ec9c17.css",
-    "main.js": "/My-Porto/static/js/main.b12cd9fa.js",
+    "main.css": "/My-Porto/static/css/main.c9af1cff.css",
+    "main.js": "/My-Porto/static/js/main.f1a9ab8f.js",
     "static/js/488.9561f9b8.chunk.js": "/My-Porto/static/js/488.9561f9b8.chunk.js",
     "static/media/image2.png": "/My-Porto/static/media/image2.914dc5c3785ad9837757.png",
     "static/media/image1s.png": "/My-Porto/static/media/image1s.05a1424f244d46cb0f2d.png",
@@ -11,12 +11,12 @@
     "static/media/port.JPG": "/My-Porto/static/media/port.6c244c4c5bd38833705e.JPG",
     "static/media/image1.png": "/My-Porto/static/media/image1.31e5b04fee9072e05bbb.png",
     "index.html": "/My-Porto/index.html",
-    "main.69ec9c17.css.map": "/My-Porto/static/css/main.69ec9c17.css.map",
-    "main.b12cd9fa.js.map": "/My-Porto/static/js/main.b12cd9fa.js.map",
+    "main.c9af1cff.css.map": "/My-Porto/static/css/main.c9af1cff.css.map",
+    "main.f1a9ab8f.js.map": "/My-Porto/static/js/main.f1a9ab8f.js.map",
     "488.9561f9b8.chunk.js.map": "/My-Porto/static/js/488.9561f9b8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.69ec9c17.css",
-    "static/js/main.b12cd9fa.js"
+    "static/css/main.c9af1cff.css",
+    "static/js/main.f1a9ab8f.js"
   ]
 }
