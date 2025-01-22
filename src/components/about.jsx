@@ -19,7 +19,11 @@ const About = () => {
       <div className="md:w-1/2 px-6 animate-slide-in-right">
         <h2 className="text-4xl font-bold mb-4 text-blue-800">About Me</h2>
         <p className="text-lg text-gray-600">
-          I'm an informatics student with a passion for creating elegant web applications. I actively participate in campus organizations and have strong leadership skills. If you wanna know about me more, download my CV below.
+          I'm an informatics student with a passion for creating elegant web applications. I actively participate in campus organizations and have strong leadership skills. 
+          As a web developer, I focus on developing great user experiences. Using technologies such as React, JavaScript, and Tailwind CSS, I can create user interfaces that are responsive, intuitive, and easy to use. 
+          In addition, I also have skills in backend development using JavaScript (Node.js) and Golang, so I can build complete and ready-to-use web applications. 
+          I am ready to assist you in building web applications that are not only visually appealing, but also have high performance and are easy to maintain. 
+          And I am also interest on to creating something about graphic design and some character design, as well as creative media skills. So if you wanna know about me more, download my CV below.
         </p>
         <div className='mt-6'>
         <a
